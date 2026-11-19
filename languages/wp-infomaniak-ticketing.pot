@@ -1,0 +1,210 @@
+# Copyright (C) 2026 Infomaniak
+# This file is distributed under the GPL-3.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Infomaniak Ticketing 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-infomaniak-ticketing\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-03T10:57:02+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wp-infomaniak-ticketing\n"
+
+#. Plugin Name of the plugin
+#: wp-infomaniak-ticketing.php
+#: src/AdminPage.php:32
+msgid "Infomaniak Ticketing"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: wp-infomaniak-ticketing.php
+msgid "https://gitlab.infomaniak.ch/infomaniak/wp-infomaniak-ticketing"
+msgstr ""
+
+#. Description of the plugin
+#: wp-infomaniak-ticketing.php
+msgid "The official Infomaniak WordPress plugin, built for organisers already using Infomaniak Ticketing. Easily add your events to your site, sell tickets online and offer a smooth purchasing experience, with no development required."
+msgstr ""
+
+#. Author of the plugin
+#: wp-infomaniak-ticketing.php
+msgid "Infomaniak"
+msgstr ""
+
+#. Author URI of the plugin
+#: wp-infomaniak-ticketing.php
+msgid "https://www.infomaniak.com"
+msgstr ""
+
+#: src/AdminPage.php:33
+msgid "Ticketing"
+msgstr ""
+
+#: src/AdminPage.php:186
+msgid "Welcome to the Infomaniak Ticketing plugin"
+msgstr ""
+
+#: src/AdminPage.php:190
+msgid "Discover the answers to the most frequently asked questions about using the Infomaniak Ticketing plugin for WordPress."
+msgstr ""
+
+#: src/AdminPage.php:192
+msgid "See our FAQ"
+msgstr ""
+
+#: src/AdminPage.php:207
+msgid "Connect your Infomaniak account to activate the plugin"
+msgstr ""
+
+#: src/AdminPage.php:208
+msgid "Use your existing Infomaniak account associated with your ticket shops."
+msgstr ""
+
+#: src/AdminPage.php:213
+msgid "Your account is connected."
+msgstr ""
+
+#: src/AdminPage.php:217
+msgid "Disconnect"
+msgstr ""
+
+#: src/AdminPage.php:233
+msgid "Infomaniak Connect (recommended)"
+msgstr ""
+
+#: src/AdminPage.php:235
+msgid "1. Register the callback URL in your Infomaniak application"
+msgstr ""
+
+#: src/AdminPage.php:236
+msgid "Copy this URL into the \"Redirect URI\" field of your Infomaniak OAuth application."
+msgstr ""
+
+#: src/AdminPage.php:246
+msgid "Manage your OAuth applications"
+msgstr ""
+
+#: src/AdminPage.php:249
+msgid "2. Fill in your application credentials"
+msgstr ""
+
+#: src/AdminPage.php:256
+msgid "OAuth client ID"
+msgstr ""
+
+#: src/AdminPage.php:262
+msgid "OAuth client secret (optional)"
+msgstr ""
+
+#: src/AdminPage.php:267
+#: src/AdminPage.php:299
+msgid "Ticketing API key"
+msgstr ""
+
+#: src/AdminPage.php:270
+msgid "Save connection settings"
+msgstr ""
+
+#: src/AdminPage.php:276
+msgid "Connect with Infomaniak"
+msgstr ""
+
+#: src/AdminPage.php:283
+msgid "Manual configuration"
+msgstr ""
+
+#: src/AdminPage.php:294
+msgid "Manager API token"
+msgstr ""
+
+#: src/AdminPage.php:304
+msgid "Where do I find these values?"
+msgstr ""
+
+#: src/AdminPage.php:306
+msgid "Create a Manager API token"
+msgstr ""
+
+#: src/AdminPage.php:308
+msgid "Create a Ticketing API key"
+msgstr ""
+
+#: src/AdminPage.php:311
+msgid "Connect"
+msgstr ""
+
+#: src/AdminPage.php:319
+msgid "View your events"
+msgstr ""
+
+#: src/AdminPage.php:320
+msgid "The list of your events and shops will be available with the integration codes."
+msgstr ""
+
+#: src/AdminPage.php:327
+msgid "Integrate your events into your pages"
+msgstr ""
+
+#: src/AdminPage.php:328
+msgid "Add the shortcode or use the WordPress block to add an event or a shop to a page."
+msgstr ""
+
+#: src/AdminPage.php:336
+msgid "Your Infomaniak account is now connected."
+msgstr ""
+
+#: src/AdminPage.php:337
+msgid "Your account has been disconnected."
+msgstr ""
+
+#: src/AdminPage.php:338
+msgid "Connection settings saved."
+msgstr ""
+
+#: src/AdminPage.php:339
+msgid "Please fill in the OAuth client ID."
+msgstr ""
+
+#: src/AdminPage.php:340
+msgid "OAuth configuration is missing. Save your connection settings first."
+msgstr ""
+
+#: src/AdminPage.php:341
+msgid "Connection failed: the connection request was denied."
+msgstr ""
+
+#: src/AdminPage.php:342
+msgid "Connection failed: invalid OAuth state. Start the connection again."
+msgstr ""
+
+#: src/AdminPage.php:343
+msgid "Connection failed: Infomaniak rejected the OAuth code exchange."
+msgstr ""
+
+#: src/AdminPage.php:344
+msgid "Connection failed: the access token was rejected by the Infomaniak API."
+msgstr ""
+
+#: src/AdminPage.php:345
+msgid "Please fill in the Manager API token and the Ticketing API key."
+msgstr ""
+
+#: src/AdminPage.php:346
+msgid "Connection failed: the Manager API token was rejected. Check your token and API key, then try again."
+msgstr ""
+
+#: src/AdminPage.php:347
+msgid "Connection failed: the Infomaniak API could not be reached. Try again later."
+msgstr ""
+
+#: src/AdminPage.php:354
+msgid "Insufficient permissions."
+msgstr ""
+
+#: wp-infomaniak-ticketing.php:37
+msgid "Infomaniak Ticketing: run \"composer install\" in the plugin folder to load its dependencies."
+msgstr ""
