@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+vendor/
+.yarn/
+
+# Build output (regenerated with `yarn build`)
+build/
+coverage/
+
+# Tooling caches
+.phpunit.cache/
+.phpunit.result.cache
+.php_cs.cache
+
+# IDE / OS
+.idea/
+.DS_Store
+._*
+
+# Logs
+*.log
+npm-debug.log*
