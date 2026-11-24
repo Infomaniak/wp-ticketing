@@ -1,0 +1,59 @@
+on:
+  push:
+    tags:
+      - "v*"
+
+name: Upload Release Asset
+
+jobs:
+  build:
+    name: Upload Release Asset
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Get tag
+        id: tag
+        run: echo "tag=${GITHUB_REF#refs/tags/}" >> "$GITHUB_OUTPUT"
+
+      - name: Check version consistency
+        run: |
+          header=$(awk '/^ \* Version:/ {print $3; exit}' wp-infomaniak-ticketing.php)
+          constant=$(sed -n "s/.*WP_INFOMANIAK_TICKETING_VERSION', '\([^']*\)'.*/\1/p" wp-infomaniak-ticketing.php)
+          if [ "${{ steps.tag.outputs.tag }}" != "v${header}" ] || [ "${header}" != "${constant}" ]; then
+            echo "::error::Tag ${{ steps.tag.outputs.tag }} does not match plugin version (header: ${header}, constant: ${constant})"
+            exit 1
+          fi
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.3"
+          coverage: none
+          tools: composer
+
+      - name: Enable corepack (Yarn 4)
+        run: corepack enable
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: yarn
+
+      - name: Build release zip
+        run: bin/build-release.sh "${{ steps.tag.outputs.tag }}"
+
+      - name: Rename artifact
+        run: mv dist/wp-ticketing.zip "/tmp/${{ github.event.repository.name }}-${{ steps.tag.outputs.tag }}.zip"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          files: /tmp/${{ github.event.repository.name }}-${{ steps.tag.outputs.tag }}.zip
+          generate_release_notes: true
