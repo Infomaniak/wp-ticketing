@@ -22,7 +22,7 @@ msgstr ""
 
 #. Plugin URI of the plugin
 #: wp-infomaniak-ticketing.php
-msgid "https://gitlab.infomaniak.ch/infomaniak/wp-infomaniak-ticketing"
+msgid "https://github.com/Infomaniak/wp-ticketing"
 msgstr ""
 
 #. Description of the plugin

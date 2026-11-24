@@ -1,5 +1,5 @@
 {
-    "name": "infomaniak/wp-infomaniak-ticketing",
+    "name": "infomaniak/wp-ticketing",
     "description": "Infomaniak Ticketing integration for WordPress.",
     "type": "wordpress-plugin",
     "license": "GPL-3.0-or-later",

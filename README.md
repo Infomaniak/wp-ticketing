@@ -1,9 +1,9 @@
 # wp-infomaniak-ticketing
 
-[![php >= 8.0](http://shields.infomaniak.ch/badge/php-8.0-blue.svg)](https://gitlab.infomaniak.ch/infomaniak/wp-infomaniak-ticketing)
-[![wordpress 6.7+](http://shields.infomaniak.ch/badge/wordpress-6.7+-blue.svg)](https://gitlab.infomaniak.ch/infomaniak/wp-infomaniak-ticketing)
-[![react 19.*](http://shields.infomaniak.ch/badge/react-19.*-green.svg)](https://gitlab.infomaniak.ch/infomaniak/wp-infomaniak-ticketing)
-[![node 24.*](http://shields.infomaniak.ch/badge/node-24.*-green.svg)](https://gitlab.infomaniak.ch/infomaniak/wp-infomaniak-ticketing)
+[![php >= 8.0](http://shields.infomaniak.ch/badge/php-8.0-blue.svg)](https://github.com/Infomaniak/wp-ticketing)
+[![wordpress 6.7+](http://shields.infomaniak.ch/badge/wordpress-6.7+-blue.svg)](https://github.com/Infomaniak/wp-ticketing)
+[![react 19.*](http://shields.infomaniak.ch/badge/react-19.*-green.svg)](https://github.com/Infomaniak/wp-ticketing)
+[![node 24.*](http://shields.infomaniak.ch/badge/node-24.*-green.svg)](https://github.com/Infomaniak/wp-ticketing)
 
 WordPress plugin to sell and manage Infomaniak event tickets (billetterie) from any WordPress site.
 

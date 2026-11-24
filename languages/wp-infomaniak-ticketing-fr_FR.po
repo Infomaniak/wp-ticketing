@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Infomaniak Ticketing 0.1.0\n"
-"Report-Msgid-Bugs-To: https://gitlab.infomaniak.ch/infomaniak/wp-infomaniak-ticketing/-/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/Infomaniak/wp-ticketing/issues\n"
 "Last-Translator: Infomaniak\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"

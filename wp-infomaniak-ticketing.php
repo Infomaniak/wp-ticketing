@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name:       Infomaniak Ticketing
- * Plugin URI:        https://gitlab.infomaniak.ch/infomaniak/wp-infomaniak-ticketing
+ * Plugin URI:        https://github.com/Infomaniak/wp-ticketing
  * Description:       The official Infomaniak WordPress plugin, built for organisers already using Infomaniak Ticketing. Easily add your events to your site, sell tickets online and offer a smooth purchasing experience, with no development required.
  * Version:           0.1.0
  * Requires at least: 6.7
